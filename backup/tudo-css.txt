@@ -1,0 +1,442 @@
+
+ html{
+     height: 1300px;
+     
+ }
+body{
+    width: 100%;
+    position: relative;
+    
+    background-color:black;
+}
+#top{
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+    animation: opaco 6s ;
+}
+
+@keyframes opaco{
+    0%{
+        
+    background-color: transparent;
+      opacity: 1;
+    }
+
+    100%{
+        opacity: 0.8;
+        background-color: black;
+    }
+}
+
+
+#bgc .fotosBgc { 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 690px;
+    position: absolute; 
+    animation: 15s autoplay infinite linear;
+    position: absolute;
+     top: 0; 
+     left: 0; 
+     opacity: 0.0;
+    
+}
+
+@keyframes autoplay{
+    0% {
+      
+        opacity: 0.0}
+  4% {opacity: 1.0}
+  33.33% {opacity: 1.0}
+  37.33% {opacity: 0.0}
+  100% {opacity: 0.0}
+
+}
+
+#bgc .fotosBgc:nth-child(1){
+    animation-delay: 0s;
+}
+#bgc .fotosBgc:nth-child(2){
+   animation-delay: 5s ;
+}
+#bgc .fotosBgc:nth-child(3){
+    animation-delay: 10s ;
+}
+#bgc .fotosBgc :nth-child(4){
+    animation-delay: 15s;
+}
+#bgc .fotosBgc :nth-child(5){
+    animation-delay: 20s;
+}
+
+
+#logos{
+   z-index:2;
+   position: absolute;
+   width: 230px;
+   height: 85px;
+   left: 10%;
+  
+}
+
+#logo{
+    width:40px ;
+    height: 70px;
+}
+#empresa{
+    position: absolute;
+    width: 200;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    
+   
+}   
+aside{
+    position:absolute;
+   
+    right: 0;
+    top:40px;
+    width: 60%;
+   
+    z-index: 2;
+}
+
+aside nav{
+    list-style-type: none;
+    width:100% ;
+   
+    
+ 
+    
+
+}
+
+aside nav li{
+    float: left;
+    width: 100px;
+    margin-right: 15%;
+    text-align: center;
+    
+    
+}
+
+aside nav li a{
+    text-decoration: none;
+   color: white;
+    font-weight: 200;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    animation:cor  2s ;
+}
+@keyframes cor{
+    0%{
+        color: black;
+        font-weight: 800;
+    }
+    100%{
+        color: white;
+        font-weight: 200;
+    }
+}
+aside nav li a:hover{
+   color: rgb(231, 229, 103);
+   font-weight:800 ;
+}
+
+.botoesInicio{
+    position:absolute;
+    z-index: 3;
+    top: 420px;
+    left: 200px;
+    text-align: center;
+    width: 400px;
+    
+    height: 100px;  
+    
+}
+
+.perfil{
+    
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: 645px;
+    margin-top: 180px;
+    background-color: transparent;
+    display:flex;
+   
+    
+
+}
+
+
+.perfilDireita{
+    position: relative;
+    background-color: black;
+    width:50%;
+   
+}
+.conteudo{
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 75px;
+    width: 80%;
+    background-color: black;
+    text-align:justify;
+    
+}
+#pleno,strong,p,i{
+    
+    color: white;
+    line-height:35px;
+    font-family: 'Open Sans', sans-serif;
+    
+   
+}
+
+#pleno{
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 600;
+
+    
+   
+    
+}
+.perfilEsquerda{
+    position: relative;
+    background-color: black;
+    width:50%;
+}
+.perfilEsquerda .foto{
+    position: absolute;
+    background-image: url(foto6.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    text-indent: -9999px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75px;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+ footer{
+    position: absolute;
+    top: 1400px;
+    height: 450px;
+    width: 100%;
+     background-color:rgb(179, 190, 166)  ;
+     
+     z-index: 5;
+    
+
+     
+ }
+ 
+footer #logos{
+    position: absolute;
+    left:0 ;
+ 
+    width: 100%;
+    background-color:transparent-;
+
+    height: 90px;
+    
+}
+footer #logos #empresa{
+    left: 13% ;
+}
+footer #logos #logo{
+    margin-left: 50px ;
+}
+
+.redesSociais{
+ position: absolute;
+ right: 13%;
+ height: 90px;
+ width: 400px;
+ top:25px ;
+
+ 
+ 
+}
+
+    
+
+.redesSociais ul  {
+    display: flex;
+    justify-content: space-around; 
+    transition: 2s  
+    
+  
+}
+.redesSociais li{
+    z-index: 3;
+}
+ 
+.redesSociais  a img{
+  transition:  1s linear ;
+
+  
+ 
+}
+.redesSociais  a img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+    border-radius: 64px ;
+}
+
+
+
+
+.separadorFooter{
+    position: absolute;
+    top:40%;
+    border-top: 1px solid rgb(56,57,60);
+    height: 10px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.linksFooter nav{
+   display: flex;
+    width: 60%;
+    justify-content: space-around;
+   position: absolute;
+   top:65%;
+   left: 50%;
+   transform: translateX(-50%);
+   list-style-type: none;
+   
+   
+}
+
+.linksFooter nav li{
+
+ }
+ .linksFooter nav a{
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+    color: rgb(56,57,60);
+    line-height:25px;
+    font-family:  'Satisfy', cursive;'Open Sans', sans-serif;
+    
+}
+
+.linksFooter nav a:hover{
+    
+    color:rgb(145,75,36)
+    
+}
+
+.footerDoFooter{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 8;
+}
+.copy{
+    position: absolute;
+    width: 100%;
+    text-align:center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 0;
+}
+
+
+
+
+
+    
+    @media only screen and (max-device-width: 900px)   {
+
+        aside nav li a{
+            font-size: 35px;;
+        }
+       
+        .perfil{
+            flex-direction: column;
+            height: 1000px;
+            justify-content: center;
+            
+            
+        }
+        .perfilDireita, .perfilEsquerda{
+            width: 100%;
+            background-color: black;
+            height: 600px;
+            display: flex;
+        justify-content: center;
+        
+        
+        }
+        .perfilDireita{
+            background-color: black;
+
+
+        }
+        .perfilDireita .conteudo{
+         position: absolute;
+         top: 10%;
+         width: 80%;
+         height: 85%;
+         text-align: justify;
+         margin-left: 10%;
+         background-color: black;
+         text-justify: auto;
+         
+         
+        }
+        #pleno,strong,p,i{
+    
+            line-height: 50px;
+            font-weight: 500;
+            font-size: 30px;
+            
+           
+        }
+        
+        #pleno{
+            color: darkslategray;
+            font-size: 40px;
+            font-weight: 800;
+           
+            
+        }
+       
+        footer{
+            top:2000px;
+        }
+    
+    
+    
+}

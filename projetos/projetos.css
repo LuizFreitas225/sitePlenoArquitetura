@@ -1,0 +1,474 @@
+
+
+body{
+    background-color: black;
+    width: 100%;
+}
+header{
+    position:sticky;
+    width: 100%;
+    height: 110px;
+    top: 0;
+    z-index: 7;
+    background:rgb(13,13,13);
+    opacity: 0.95;
+    
+}
+
+#logos{
+   z-index:2;
+   position: absolute;
+   width: 275px;
+   height: 85px;
+   left: 10%;
+  
+}
+
+#logo{
+    width:40px ;
+    height: 70px;
+}
+#empresa{
+    position: absolute;
+    width: 200;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    
+   
+}   
+aside{
+    position:absolute;
+   
+    right: 0;
+    top:40px;
+    width: 60%;
+   
+    z-index: 2;
+}
+
+aside nav{
+    display: flex;
+    list-style-type: none;
+    width:100% ;
+    
+}
+
+aside nav li{
+    float: left;
+    width: 100px;
+    margin-right: 8%;
+    text-align: center;
+
+    
+}
+
+
+
+aside nav li a{
+    text-decoration: none;
+   color:rgb(52,53,57);
+    font-weight: 200;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    animation:cor  2s ;
+}
+
+@keyframes cor{
+    0%{
+        color: white);
+        font-weighhitet: 800;
+    }
+    100%{
+        color:rgb(52,53,57);
+        font-weight: 200;
+    }
+}
+aside nav li a:hover{
+   color: rgb(80, 80, 80);
+   font-weight:800 ;
+}
+
+#pleno,strong,p,i{
+    
+    color: white;
+    line-height:35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+   
+}
+#pleno,strong,p,i{
+    
+    color: white;
+    line-height:35px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    
+   
+}
+
+#pleno{
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 600;
+}
+.projetos{
+    position: relative;
+    top: 280px;
+    
+    
+}
+
+.interiores{
+
+    z-index: 5;
+    background-color:#0000;
+    left: 0;
+}
+h2:not(#pleno){
+    color: rgba(255, 255, 14, 1);
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    width: 300px;
+}   
+.imagensInteriores{
+   position: relative;
+    width: 350px;
+    height: 200px;
+    border: white  2px solid;
+    margin:0;
+    transition: 2s;
+}
+
+.imagensInteriores:hover{
+    transform: scale(1.7);
+    z-index: 4;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+
+}
+
+.headerImg ,.footerImg {
+    text-align: center;
+}
+.externas{
+     position: relative;
+    z-index: 5;
+    top: 200px;
+    background-color: #000;
+    
+}
+.imagensExternas{
+    position: relative;
+     width: 350px;
+     height: 200px;
+     border: white  2px solid;
+     margin:0;
+     transition: 2s;
+     
+ }
+ .imagensExternas:hover{
+    transform: scale(1.7);
+    z-index: 4;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+
+}
+footer{
+    position: relative;
+    top: 800px;
+    height: 450px;
+    width: 100%;
+     background-color:rgb(185, 200, 167)   ;
+     
+     z-index: 5;3T
+    
+
+     
+ }
+ 
+footer #logos{
+    position: absolute;
+    left:0 ;
+ 
+    width: 100%;
+    background-color:transparent;
+
+    height: 90px;
+    
+}
+footer #logos #empresa{
+    left: 13%;
+}
+footer #logos #logo{
+    margin-left: 50px ;
+}
+
+.redesSociais{
+ position: absolute;
+ right: 13%;
+ height: 90px;
+ width: 400px;
+ top:25px ;
+
+ 
+ 
+}
+
+
+    
+
+.redesSociais ul  {
+    display: flex;
+    justify-content: space-around; 
+    transition: 2s  
+    
+  
+}
+.redesSociais li{
+    z-index: 3;
+}
+ 
+.redesSociais  a img{
+  transition:  1s linear ;
+
+  
+ 
+}
+.redesSociais  a img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+    border-radius: 64px ;
+}
+
+
+
+
+.separadorFooter{
+    position: absolute;
+    top:40%;
+    border-top: 1px solid rgb(56,57,60);
+    height: 10px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.linksFooter nav{
+   display: flex;
+    width: 60%;
+    justify-content: space-around;
+   position: absolute;
+   top:65%;
+   left: 50%;
+   transform: translateX(-50%);
+   list-style-type: none;
+   
+   
+}
+
+.linksFooter nav li{
+
+ }
+ .linksFooter nav a{
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+    color: rgb(56,57,60);
+    line-height:25px;
+    font-family:  'Satisfy', cursive;'Open Sans', sans-serif;
+    
+}
+
+.linksFooter nav a:hover{
+    
+    color:rgb(145,75,36)
+    
+}
+
+.footerDoFooter{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 8;
+}
+.copy{
+    position: absolute;
+    width: 100%;
+    text-align:center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 0;
+}
+
+
+
+@media only screen and (max-device-width: 900px)   {
+  
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 170px;
+        
+        
+    }
+    #logos{
+        position: relative;
+        width: 100%;
+        display: flex;
+       left: 0;
+        justify-content:space-between;
+       
+    }
+
+    aside{
+        position: relative;
+       width:  100%;
+       
+    }
+    
+aside nav {
+    display: flex; 
+    justify-content: space-around;
+    width: 100%;
+   
+}
+aside nav li{
+            
+    margin-right: 2%;
+    
+    
+}
+
+    #logo{
+      opacity: 0;
+    }
+    #empresa{
+        left: 50%;
+        transform: translateX(-50%)
+    }
+  
+
+  
+.projetos{
+  top: 400px;    
+}
+.externa{
+    position: relative;
+    
+    background-color: #fff;
+}
+h2:not(#pleno){
+    color: yellow;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    width: 300px;
+    
+}
+.imagensInteriores:hover{
+    transform: scale(1);
+    z-index: 4;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.8);
+
+}
+
+.imagensExternas:hover{
+    transform: scale(1);
+    z-index: 4;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.8);
+
+}
+#footer{
+    height: 450px;
+}
+
+.headerFooter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.redesSociais{
+   position: relative;
+    right: 0;
+    height: 90px;
+    width: 400px;
+    top:25px ;
+   
+    
+    
+   }
+   footer #logos{
+    position: relative ;
+       left:0 ;
+       width: 100%;
+       
+       height: 90px;
+       margin-right: 0;
+       right: 0;
+       
+   }
+   footer #logos #empresa{
+       left: 50%;
+      
+   }
+   .redesSociais{
+       width: 100%;
+       margin-top: 50px;
+   }
+  
+   footer{
+      height: 550px;
+   }
+
+   .linksFooter nav{
+    display: flex;
+     width: 60%;
+     justify-content: space-around;
+    position: absolute;
+    top:75%;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style-type: none;
+
+    width: 100%;
+    
+    
+ }
+ .separadorFooter{
+     top: 60%;
+ }
+ 
+ 
+   
+}
+
+@media only screen and (max-device-width: 300px)   {
+    .linksFooter nav a{
+        text-decoration: none;
+    
+        font-size: 20px;
+        font-weight: 600;
+        height: 100%;
+        width: 100%;
+        color: rgb(56,57,60);
+        line-height:25px;
+        font-family:  'Satisfy', cursive;'Open Sans', sans-serif;
+        
+    }
+
+}

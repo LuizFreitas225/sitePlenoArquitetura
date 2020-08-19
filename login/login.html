@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" href="../logos/logo.png">
+    <title>Pleno Arquitetura</title>
+</head>
+<body>
+    <header>
+       
+        <div id="logos">
+            
+          <img  id="logo" src="../logos/logo-branca.png" alt="Logomarca"> 
+          <img  id="empresa" src="../logos/pleno-branca.png" alt="Logotipo">
+      </div>
+          <aside>
+              
+            <nav>
+                <li alt="Projetos"> <a href="../index.html">Perfil</a></li>
+                <li alt="Projetos"> <a href="../projetos/projetos.html">Projetos</a></li>
+                <li alt="Contato" ><a href="../contato/contato.html">Contato</a></li>
+                <li alt="Contato" ><a href="../login/login.html">Login</a></li>
+                
+                
+            </nav>
+          </aside>
+    </header> 
+    <section class="telaLogin">
+        <div class="inputs"></div>
+                <div class="inputs">
+                    
+                    <label for="User">Usuário:</label>
+                    <input   id="User" class="form" type="text" name="username" placeholder="Usuário: Luiz"></div>
+                </div class>
+                <div class="inputs">
+                    <div class="inputs"><label for="pass">Senha:</label>
+                    <div><input  id="pass" class="form" type="password" name="pass" placeholder="Senha: nicolau"></div>
+                </div>  
+            </div>         
+        <div class="botao">
+            <button    class="btn btn-secondary btn-lg" id="btn" onclick="logar()" type="button" class="btn btn-light">Confirmar</button>
+        </div> 
+    </section>
+
+ <div class="gambiarra"></div>
+    <script src="login.js"> </script>
+</body>
+</html>

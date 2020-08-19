@@ -1,0 +1,105 @@
+
+      <section class="interiores" id="projetos">
+         <h2>Desingn de Interiores</h2>
+        <div class="headerImg">
+          <img src="interior selecionadas\interior (1).png" alt="" class="imagensInteriores">
+          <img src="interior selecionadas\interior (2).png" alt="" class="imagensInteriores">
+          <img src="interior selecionadas\interior (3).png" alt="" class="imagensInteriores">
+        </div>
+        <div class="bodyImg">
+           <img src="interior selecionadas\interior (4).png" alt="" class="imagensInteriores">
+          <img src="interior selecionadas\interior (5).png" alt="" class="imagensInteriores">
+          
+        </div>
+        <div class="footerImg">
+          <img src="interior selecionadas\interior (7).png" alt="" class="imagensInteriores">
+          <img src="interior selecionadas\interior (8).png" alt="" class="imagensInteriores">
+          <img src="interior selecionadas\interior (9).png" alt="" class="imagensInteriores">
+        </div>
+      </section>
+
+      <section class="externas">
+        <h2>Projetos Externos</h2>
+       <div class="headerImg">
+         <img src="externas selecionadas\externo (1).png" alt="" class="imagensExternas">
+         <img src="externas selecionadas\externo (2).png" alt="" class="imagensExternas">
+         <img src="externas selecionadas\externo (3).png" alt="" class="imagensExternas">
+       </div>
+       <div class="bodyImg">
+         <img src="externas selecionadas\externo (4).png" alt="" class="imagensExternas">
+         <img src="externas selecionadas\externo (5).png" alt="" class="imagensExternas">
+       </div>
+       <div class="footerImg">
+         <img src="externas selecionadas\externo (7).png" alt="" class="imagensExternas">
+         <img src="externas selecionadas\externo (8).png" alt="" class="imagensExternas">
+         <img src="externas selecionadas\externo (9).png" alt="" class="imagensExternas">
+       </div>
+     </section>
+
+
+.interiores{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    top: 1280px;
+    right: 10px;
+    background-color: #000;
+    left: 0;
+}
+h2:not(#pleno){
+    color: yellow;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    width: 300px;
+}   
+.imagensInteriores{
+   position: relative;
+    width: 350px;
+    height: 200px;
+    border: white  2px solid;
+    margin:0;
+    transition: 2s;
+}
+
+.imagensInteriores:hover{
+    transform: scale(1.7);
+    z-index: 4;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+
+}
+
+.bodyImg, .headerImg ,.footerImg {
+    text-align: center;
+}
+.externas{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    top: 1460px;
+    right: 10px;
+    background-color: #000;
+    left: 0;
+}
+.imagensExternas{
+    position: relative;
+     width: 350px;
+     height: 200px;
+     border: white  2px solid;
+     margin:0;
+     transition: 1s;
+     
+ }
+ .imagensExternas:hover{
+    transform: scale(1.7);
+    z-index: 4;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+
+}
+
+
+
+
+
